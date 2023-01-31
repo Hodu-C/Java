@@ -1,5 +1,9 @@
-자바(Java Programming Language)
+자바(Java Programming Language)<br>
 "Write once, run anywhere"
+
+===
+
+### 자바의 특징
 
 - 운영체제에 독립적
 - 객체지향언어 -> 재사용성과 유지보수의 용이성 등
@@ -9,7 +13,8 @@
 - 동적 로딩(Dynamic Loading) 지원 -> 클래스가 필요한 시점에 로딩
 - JVM은 OS에 종속적, Java는 OS와 독립적
 
-자바프로그램 실행과정
+### 자바프로그램 실행과정
+
 .java 소스파일 -> javac.exe(컴파일) ->(.class 생성) -> java.exe(인터프리터) -> 실행
 
 - 실행에 필요한 컴파일된 클래스 파일을 로드 -> 파일 검사 -> 지정된 클래스 main 호출
@@ -19,3 +24,5 @@
   3.  public 클래스는 소스파일에 하나만 존재해야한다.
 
 public static void main(String[] args) -> 인터프리터에 의해 호출되는 약속된 부분
+
+#### Q1. 생성되는 클래스 파일을 어디있는지 알고 호출하는지?
